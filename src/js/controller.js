@@ -135,6 +135,8 @@ const init = function() {
   searchView.addHandlerSearch(constrolSearchResults)
   paginationView.addHandlerClick(controlPagination)
   addRecipeView.addHandlerUpload(controlAddRecipe)
+
+  console.log(`Some new feature`)
 }
 init()
 
